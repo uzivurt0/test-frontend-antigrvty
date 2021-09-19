@@ -1,0 +1,84 @@
+.card-container {
+  max-width: 100%;
+  position: relative;
+  padding: 0 15px;
+  margin-top: -100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  box-shadow: 0px 4px 8px rgba(165, 165, 165, 0.12);
+  border-radius: 8px;
+  overflow: hidden;
+  &__img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  :hover {
+    h1:hover {
+      color: var(--clr-blue-main) !important;
+    }
+  }
+
+  &__text {
+    background-color: white;
+    margin: 0;
+    padding: 15px 15px 21px;
+    .card-tag {
+      display: inline-block;
+      background-color: rgba(31, 117, 225, 0.08);
+      font-size: 11px;
+      padding: 5px 8px;
+      border: 1px solid var(--clr-blue-tag);
+      border-radius: 2px;
+      p {
+        color: var(--clr-blue-tag);
+      }
+    }
+
+    .card-outletName {
+      margin: 11px 0 9px;
+    }
+
+    .card-outletInfo {
+      align-items: center;
+      display: flex;
+      margin: 5px 0;
+      span {
+        margin-right: 6px;
+      }
+      p {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--clr-info-gray);
+      }
+    }
+  }
+
+  .outlet-btn {
+    width: 100%;
+    text-align: center;
+    padding: 17px 0;
+    background-color: white;
+    border: 2px solid var(--clr-blue-main);
+    color: var(--clr-blue-main);
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .outlet-btn:hover {
+    background-color: var(--clr-blue-main);
+    color: white;
+    transition: 0.2s;
+  }
+}

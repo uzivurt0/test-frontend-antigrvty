@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro" sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: var(--clr-bg-gray);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a,
+span {
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  cursor: pointer;
+}
+
+:root {
+  --clr-black: #1f2d3d;
+  --clr-bg-gray: #f1f5f6;
+  --clr-line-gray: #eeeaea;
+  --clr-info-gray: #8492a6;
+  --clr-blue-main: #163c80;
+  --clr-blue-tag: #1f75e1;
+  --clr-sec-gray: #f8f7f7;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+  color: var(--clr-black);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--clr-black);
+}
+
+.main-content {
+  padding-top: 55px;
+  background-color: var(--clr-bg-gray);
+  max-width: 450px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 0 auto;
+}
+
+.main-title {
+  display: flex;
+  background-color: var(--clr-blue-main);
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding: 40px 15px;
+}
+
+.row-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.row-title h1 {
+  font-size: 18px;
   color: white;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.row-title p {
+  color: white;
+  font-size: 13px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divide {
+  margin: 20px 0;
+  height: 1px;
+}
+
+.swiper-pagination-bullet {
+  background: transparent !important;
+  border: 2px solid white;
+  opacity: 1 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background: white;
+  border-radius: 50%;
+  color: var(--clr-blue-main) !important;
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: white !important;
+  border: 1px solid white;
+}
+
+.image-banner {
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-banner img {
+  width: 100%;
 }

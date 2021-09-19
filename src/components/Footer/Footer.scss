@@ -1,0 +1,107 @@
+.footer {
+  text-align: center;
+  bottom: 0;
+  background-color: white;
+  padding: 15px 32px;
+  z-index: -1;
+  &__nav {
+    border-bottom: 1px solid var(--clr-line-gray);
+    padding: 32px 0px 26px;
+    font-weight: 600;
+    a {
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0 10px;
+      :hover {
+        color: var(--clr-blue-main);
+      }
+    }
+  }
+
+  &__address {
+    padding: 32px 0px 26px;
+    border-bottom: 1px solid var(--clr-line-gray);
+    line-height: 1.5;
+    h1 {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    p {
+      span {
+        font-weight: 600;
+      }
+    }
+    &__button {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .maps,
+    .phone {
+      display: flex;
+      width: 200px;
+      margin: 10px auto;
+      padding: 10px 15px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      img {
+        max-width: 100%;
+      }
+      span {
+        font-size: 14px;
+        margin-right: 5px;
+      }
+    }
+
+    .maps {
+      border: 2px solid var(--clr-blue-main);
+      background-color: white;
+      color: var(--clr-blue-main);
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 2px;
+      align-items: center;
+    }
+
+    .maps:hover {
+      background-color: var(--clr-blue-main);
+      color: white;
+      transition: 0.5s;
+    }
+
+    .phone {
+      background-color: var(--clr-blue-main);
+      color: white;
+      border-radius: 2px;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    justify-content: center;
+    text-align: center;
+    a {
+      margin: 15px 0;
+    }
+    h3 {
+      padding: 25px 0 15px;
+    }
+  }
+}
+
+.copyright {
+  background-color: var(--clr-blue-main);
+  width: 100%;
+  text-align: center;
+  padding: 22px 0 125px;
+  p {
+    color: white;
+  }
+}

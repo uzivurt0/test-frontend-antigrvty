@@ -1,0 +1,194 @@
+.nav-content {
+  margin-top: 55px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--clr-sec-gray);
+}
+
+.car-name {
+  padding: 15px;
+  font-size: 13px;
+  font-weight: 600;
+  border-bottom: 1px dotted var(--clr-line-gray);
+}
+
+.nav-tab {
+  width: auto;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-x: scroll;
+  .nav-item {
+    width: 100%;
+    display: block;
+    align-items: center;
+    a {
+      display: flex;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+      width: auto;
+      padding: 5px 12px;
+    }
+  }
+}
+
+.nav-tab::-webkit-scrollbar {
+  display: none;
+}
+
+.motto {
+  width: 94%;
+  margin: 0 auto;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.container-btn-title {
+  padding: 25px;
+  background-color: var(--clr-blue-main);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+
+  .brosur,
+  .harga {
+    padding: 10px 16px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 5px;
+    border: 2px solid white;
+  }
+
+  .brosur {
+    color: white;
+    border-radius: 2px;
+  }
+  .harga {
+    background-color: white;
+    color: var(--clr-blue-main);
+    border-radius: 2px;
+  }
+}
+
+.container {
+  margin: 12.5px 0;
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  .title {
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .nav-type {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 0;
+    .color {
+      width: 37px;
+      height: 37px;
+      border-radius: 50%;
+      border: 2px solid white;
+      box-shadow: 0px 4px 8px rgba(61, 61, 61, 0.12);
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    .nav-item {
+      padding: 8px 16px;
+      color: rgba(17, 16, 16, 0.3);
+      border-bottom: 3px solid rgba(17, 16, 16, 0.3);
+    }
+    .active {
+      color: var(--clr-blue-main);
+      border-color: var(--clr-blue-main);
+    }
+  }
+
+  .type-color-content {
+    padding: 10px 15px;
+    .car-image {
+      padding: 15px 0;
+      -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 1s; /* Firefox < 16 */
+      -ms-animation: fadein 1s; /* Internet Explorer */
+      -o-animation: fadein 1s; /* Opera < 12.1 */
+      animation: fadein 1s;
+      img {
+        width: 100%;
+      }
+    }
+    .color-name {
+      font-weight: 600;
+    }
+    .hide {
+      display: none;
+    }
+  }
+
+  .pricing-container {
+    background-color: var(--clr-sec-gray);
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: left;
+    display: flex;
+    padding: 15px;
+    margin: 16px 0;
+    box-shadow: 0px 4px 8px rgba(61, 61, 61, 0.12);
+    .card-name,
+    .card-price {
+      width: 100%;
+      flex: 0 0 50%;
+      font-weight: 600;
+    }
+  }
+}
+
+.pricing-btn {
+  margin: 15px auto;
+  display: inline-block;
+  padding: 13px 20px;
+  color: var(--clr-blue-main);
+  border-radius: 2px;
+  border: 2px solid var(--clr-blue-main);
+  font-weight: 600;
+}
+
+.exterior {
+  text-align: center;
+  width: 100%;
+  margin: 12.5px 0;
+  .title {
+    width: 100%;
+    padding: 25px 0;
+    background-color: var(--clr-blue-main);
+    h4 {
+      color: white;
+    }
+    .interior-btn {
+      border: 2px solid white;
+      border-radius: 2px;
+      display: inline-block;
+      padding: 10px 20px;
+      color: white;
+      background-color: transparent;
+    }
+  }
+
+  .detail {
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.floating-wrapper {
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  padding: 25px;
+  .floating-item-wrapper {
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  }
+  .floating-button {
+    width: 25%;
+    span {
+      font-size: 10px;
+    }
+  }
+
+  .floating-image {
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+
+  .booking-button {
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 21px;
+    width: 50%;
+    align-items: center;
+    background-color: var(--clr-blue-main);
+    border-radius: 2px;
+  }
+}
