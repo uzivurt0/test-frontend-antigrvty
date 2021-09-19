@@ -12,7 +12,7 @@ const Floating2 = ({buttonRef, showModal}) => {
             <>
                 <div className="floating-wrapper">
                     <div className="floating-item-wrapper">
-                        <button className="booking-button" ref={buttonRef} onClick={showModal}>
+                        <button className="booking-button">
                             Booking Mobil
                         </button>
                         <a className="floating-button">
