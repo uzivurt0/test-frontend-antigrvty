@@ -11,7 +11,7 @@ import Motto from '../../assets/Image/image 18.png';
 
 import Eksterior from '../../assets/Image/Group 75.png';
 import Interior from '../../assets/Image/Group 76.png';
-import { Floating2, TabMobil, Pricing, Modal} from '../../components';
+import { Accordions, Floating2, TabMobil, Pricing, Modal} from '../../components';
 
 SwiperCore.use([Navigation, Pagination]);
 export default class Catalogue extends Component{
@@ -108,12 +108,7 @@ export default class Catalogue extends Component{
                         <div className="title">
                             SPESIFIKASI
                         </div>
-                        <Pricing name="DIMENSI"/>
-                        <Pricing name="MESIN" />
-                        <Pricing name="TRANSMISI" />
-                        <Pricing name="BERAT" />
-                        <Pricing name="RANGKA" />
-                        <Pricing name="KAPASITAS" />
+                        <Accordions />
                     </div>
                     <div className="container" id="price">
                         <div className="title">
