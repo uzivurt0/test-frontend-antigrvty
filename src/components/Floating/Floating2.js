@@ -6,15 +6,15 @@ import Price from '../../assets/Image/Group 70.png';
 
 import './Floating.scss';
 
-export default class Floating2 extends Component{
-    render(){
+const Floating2 = ({buttonRef, showModal}) => {
+
         return(
             <>
                 <div className="floating-wrapper">
                     <div className="floating-item-wrapper">
-                        <div className="booking-button">
+                        <button className="booking-button" ref={buttonRef} onClick={showModal}>
                             Booking Mobil
-                        </div>
+                        </button>
                         <a className="floating-button">
                             <div className="floating-image">
                                 <img src={WhatsApp}/>
@@ -31,5 +31,6 @@ export default class Floating2 extends Component{
                 </div>
             </>
         )
-    }
 }
+
+export default Floating2;

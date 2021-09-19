@@ -11,17 +11,38 @@ import Motto from '../../assets/Image/image 18.png';
 
 import Eksterior from '../../assets/Image/Group 75.png';
 import Interior from '../../assets/Image/Group 76.png';
-import { Floating2, TabMobil, Pricing, } from '../../components';
+import { Floating2, TabMobil, Pricing, Modal} from '../../components';
 
 SwiperCore.use([Navigation, Pagination]);
 export default class Catalogue extends Component{
     componentDidMount(){
         window.scrollTo(0, 0);
     }
+    state = {isShown : false};
+    showModal = () => {
+        this.setState({isShown : true});
+        this.toggleScrollLock();
+    };
+
+    closeModal = () => {
+        this.setState({ isShown: false });
+        this.toggleScrollLock();
+    };
+    
+    toggleScrollLock = () => {
+        document.querySelector('html').classList.toggle('scroll-lock');
+    };
     render(){
         return(
             <>
-                <Floating2/>
+            <React.Fragment>
+                <Floating2 showModal={this.showModal} buttonRef={(n)=>(this.Floating2 = n)}/>
+                {this.state.isShown ? (
+                    <Modal
+                        closeModal={this.closeModal} 
+                        modalRef = {(n) => (this.modal = n)}/>
+                ) : null}
+            </React.Fragment>
                 <div className="nav-content">
                     <div className="car-name">
                         XL7
@@ -73,7 +94,7 @@ export default class Catalogue extends Component{
                         </div>
                     </div>
                     <div className="exterior" id="interior">
-                        <div class="title">
+                        <div className="title">
                             <h4>Interior</h4>
                         </div>
                         <div className="detail">
@@ -87,12 +108,12 @@ export default class Catalogue extends Component{
                         <div className="title">
                             SPESIFIKASI
                         </div>
-                        <Pricing name="XL7 ZETA M/T" price="Rp 232.000.000"/>
-                        <Pricing name="XL7 ZETA A/T" price="Rp 242.000.000"/>
-                        <Pricing name="XL7 BETA M/T" price="Rp 248.500.000"/>
-                        <Pricing name="XL7 BETA A/T" price="Rp 259.000.000"/>
-                        <Pricing name="XL7 ALPHA M/T" price="Rp 258.500.000"/>
-                        <Pricing name="XL7 ALPHA A/T" price="Rp 269.000.000"/>
+                        <Pricing name="DIMENSI"/>
+                        <Pricing name="MESIN" />
+                        <Pricing name="TRANSMISI" />
+                        <Pricing name="BERAT" />
+                        <Pricing name="RANGKA" />
+                        <Pricing name="KAPASITAS" />
                     </div>
                     <div className="container" id="price">
                         <div className="title">

@@ -9,5 +9,7 @@ import Pricing from './Pricing/Pricing';
 import Alpha from './Alpha/Alpha';
 import Beta from './Beta/Beta';
 import Zeta from './Zeta/Zeta';
+import Modal from './Modal/Modal';
 
-export {Header, Footer, Floating, Floating2, TabMobil, Card, Carlist, Pricing, Alpha, Beta, Zeta};
+
+export {Header, Footer, Floating, Floating2, TabMobil, Card, Carlist, Pricing, Alpha, Beta, Zeta, Modal};
