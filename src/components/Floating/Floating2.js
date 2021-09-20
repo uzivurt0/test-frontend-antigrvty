@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 import WhatsApp from '../../assets/Image/WA Icon.png';
 import Price from '../../assets/Image/Group 70.png';
@@ -17,13 +17,13 @@ const Floating2 = ({buttonRef, showModal}) => {
                         </button>
                         <a className="floating-button">
                             <div className="floating-image">
-                                <img src={WhatsApp}/>
+                                <img alt="whatsapp" src={WhatsApp}/>
                             </div>
                             <span>WhatsApp</span>
                         </a>
                         <a className="floating-button">
                             <div className="floating-image">
-                                <img src={Price}/>
+                                <img alt="price" src={Price}/>
                             </div>
                             <span>Daftar Harga</span>
                         </a>

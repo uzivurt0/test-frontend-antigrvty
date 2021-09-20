@@ -10,7 +10,7 @@ export default class Header extends Component {
                 <Link to="/">
                     <a className="header-logo">
                         <div className="header-logo-img">
-                            <img src={Logo} />
+                            <img alt="logo" src={Logo} />
                         </div>
                         <div className="header-text">
                             <h3>PT. Nusantara Jaya Sentosa</h3>

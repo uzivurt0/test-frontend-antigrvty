@@ -15,16 +15,16 @@ const Zeta = () => {
     return(
         <>
         <div className={toggleState === 1 ? "car-image" : "hide"}>
-            <img src={PrimeWhite}/>
+            <img alt="mobil"  src={PrimeWhite}/>
         </div>
         <div className={toggleState === 2 ? "car-image" : "hide"}>
-            <img src={PrimeBlack}/>
+            <img alt="mobil"  src={PrimeBlack}/>
         </div>
         <div className={toggleState === 3 ? "car-image" : "hide"}>
-            <img src={BraveKhaki}/>
+            <img alt="mobil"  src={BraveKhaki}/>
         </div>
         <div className={toggleState === 4 ? "car-image" : "hide"}>
-            <img src={RisingOrange}/>
+            <img alt="mobil"  src={RisingOrange}/>
         </div>
         <div className={toggleState === 1 ? "color-name" : "hide"}>PRIME SNOW WHITE</div>
         <div className={toggleState === 2 ? "color-name" : "hide"}>PRIME COOL BLACK</div>

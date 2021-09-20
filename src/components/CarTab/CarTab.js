@@ -1,4 +1,4 @@
-import React, {Component, useState} from "react";
+import React, {useState} from "react";
 import { Carlist } from "..";
 
 import XL7 from '../../assets/Image/image 10.png';

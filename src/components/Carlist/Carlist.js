@@ -7,7 +7,7 @@ const Carlist = ({gambarMobil, namaMobil, hargaMobil}) => {
     <Link to="/XL7">
         <a className="car-item">
             <div className="item-image">
-                <img src={gambarMobil}/>
+                <img alt ="mobil" src={gambarMobil}/>
             </div>
             <div className="item-desc">
                 <h4>{namaMobil}</h4>
