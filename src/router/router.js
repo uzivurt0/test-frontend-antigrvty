@@ -10,7 +10,7 @@ const RouterView = () => {
             <Switch>
                 <Fragment>
                     <Header />
-                    <Route path="/home" exact component={Dealer}/>
+                    <Route path="/" exact component={Dealer}/>
                     <Route path="/outlet" component={Outlet}/>
                     <Route path="/XL7" component={Catalogue}/>
                     <Footer />
