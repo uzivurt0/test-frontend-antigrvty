@@ -1,10 +1,20 @@
 import './App.css';
 import RouterView from './router/router';
+import {Route, BrowserRouter as Router, Switch, useRouteMatch} from 'react-router-dom';
+import { Header, Footer } from './components';
+import { Dealer, Outlet,Catalogue } from './pages';
 
 function App() {
   return (
     <>
-      <RouterView />
+        <Header />
+            <Switch>        
+                <Route path="/" exact component ={Dealer}/>
+                <Route path="/outlet" component={Outlet}/>
+                <Route path="/XL7" component={Catalogue}/>       
+            </Switch>
+            <Footer />
+      {/* <RouterView /> */}
     </>
   );
 }

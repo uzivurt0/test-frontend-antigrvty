@@ -7,15 +7,13 @@ const RouterView = () => {
     return(
         <>
         <Router>
-            <Switch>
-                <Fragment>
-                    <Header />
-                    <Route path="test-frontend-antigrvty/" exact component={Dealer}/>
-                    <Route path="test-frontend-antigrvty/outlet" component={Outlet}/>
-                    <Route path="test-frontend-antigrvty/XL7" component={Catalogue}/>
-                    <Footer />
-                </Fragment>
+        <Header />
+            <Switch>        
+                <Route exact path="/"><Dealer /></Route>
+                <Route path="/outlet"><Outlet /></Route>
+                <Route path="/XL7"><Catalogue /></Route>        
             </Switch>
+            <Footer />
         </Router>
         </>
     )
