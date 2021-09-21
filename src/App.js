@@ -9,11 +9,11 @@ function App() {
     <>
         <Header />
             <Switch>        
-                <Route path="/" exact component ={Dealer}/>
+                <Route path="/test-frontend-antigrvty/" exact component ={Dealer}/>
                 <Route path="/outlet" component={Outlet}/>
                 <Route path="/XL7" component={Catalogue}/>       
             </Switch>
-            <Footer />
+          <Footer />
       {/* <RouterView /> */}
     </>
   );
