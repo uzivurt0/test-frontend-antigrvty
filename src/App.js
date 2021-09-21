@@ -10,8 +10,8 @@ function App() {
         <Header />
             <Switch>        
                 <Route path="/test-frontend-antigrvty" exact component ={Dealer}/>
-                <Route exact path="/outlet" component={Outlet}/>
-                <Route exact path="/XL7" component={Catalogue}/>       
+                <Route path="/outlet" component={Outlet}/>
+                <Route path="/XL7" component={Catalogue}/>       
             </Switch>
           <Footer />
       {/* <RouterView /> */}

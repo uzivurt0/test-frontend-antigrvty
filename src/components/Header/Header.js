@@ -7,7 +7,7 @@ export default class Header extends Component {
     render() {
         return (
             <header className="header">
-                <Link to="/">
+                <Link to="/test-frontend-antigrvty">
                     <a className="header-logo">
                         <div className="header-logo-img">
                             <img alt="logo" src={Logo} />
