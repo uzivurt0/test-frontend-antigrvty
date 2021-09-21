@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Carlist = ({gambarMobil, namaMobil, hargaMobil}) => {
     return(
-    <Link to="/XL7">
+    <Link to="/test-frontend-antigrvty/XL7">
         <a className="car-item">
             <div className="item-image">
                 <img alt ="mobil" src={gambarMobil}/>

@@ -6,7 +6,7 @@ import Pin from '../../assets/Icon/pin.svg';
 
 const Card = ({namaOutlet, telfonOutlet, alamatOutlet, tag, gambarOutlet, }) =>{
     return(
-        <Link to="/outlet">
+        <Link to="/test-frontend-antigrvty/outlet">
             <a className="content">
                 <div className="content__img">
                     <img src={gambarOutlet}/>
