@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/test-frontend-antigrvty/static/css/main.44ea55fe.chunk.css",
-    "main.js": "/test-frontend-antigrvty/static/js/main.f324ce2f.chunk.js",
-    "main.js.map": "/test-frontend-antigrvty/static/js/main.f324ce2f.chunk.js.map",
+    "main.js": "/test-frontend-antigrvty/static/js/main.7b3d15f9.chunk.js",
+    "main.js.map": "/test-frontend-antigrvty/static/js/main.7b3d15f9.chunk.js.map",
     "runtime-main.js": "/test-frontend-antigrvty/static/js/runtime-main.04becefd.js",
     "runtime-main.js.map": "/test-frontend-antigrvty/static/js/runtime-main.04becefd.js.map",
     "static/css/2.b67bb947.chunk.css": "/test-frontend-antigrvty/static/css/2.b67bb947.chunk.css",
-    "static/js/2.d07ec637.chunk.js": "/test-frontend-antigrvty/static/js/2.d07ec637.chunk.js",
-    "static/js/2.d07ec637.chunk.js.map": "/test-frontend-antigrvty/static/js/2.d07ec637.chunk.js.map",
+    "static/js/2.287f12e9.chunk.js": "/test-frontend-antigrvty/static/js/2.287f12e9.chunk.js",
+    "static/js/2.287f12e9.chunk.js.map": "/test-frontend-antigrvty/static/js/2.287f12e9.chunk.js.map",
     "static/js/3.7782259a.chunk.js": "/test-frontend-antigrvty/static/js/3.7782259a.chunk.js",
     "static/js/3.7782259a.chunk.js.map": "/test-frontend-antigrvty/static/js/3.7782259a.chunk.js.map",
     "index.html": "/test-frontend-antigrvty/index.html",
     "static/css/2.b67bb947.chunk.css.map": "/test-frontend-antigrvty/static/css/2.b67bb947.chunk.css.map",
     "static/css/main.44ea55fe.chunk.css.map": "/test-frontend-antigrvty/static/css/main.44ea55fe.chunk.css.map",
-    "static/js/2.d07ec637.chunk.js.LICENSE.txt": "/test-frontend-antigrvty/static/js/2.d07ec637.chunk.js.LICENSE.txt",
+    "static/js/2.287f12e9.chunk.js.LICENSE.txt": "/test-frontend-antigrvty/static/js/2.287f12e9.chunk.js.LICENSE.txt",
     "static/media/Ahmad Yani.34daefc2.png": "/test-frontend-antigrvty/static/media/Ahmad Yani.34daefc2.png",
     "static/media/Bubat.749f1928.png": "/test-frontend-antigrvty/static/media/Bubat.749f1928.png",
     "static/media/Cibeureum.72776e71.png": "/test-frontend-antigrvty/static/media/Cibeureum.72776e71.png",
@@ -53,8 +53,8 @@
   "entrypoints": [
     "static/js/runtime-main.04becefd.js",
     "static/css/2.b67bb947.chunk.css",
-    "static/js/2.d07ec637.chunk.js",
+    "static/js/2.287f12e9.chunk.js",
     "static/css/main.44ea55fe.chunk.css",
-    "static/js/main.f324ce2f.chunk.js"
+    "static/js/main.7b3d15f9.chunk.js"
   ]
 }
