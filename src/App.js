@@ -10,8 +10,8 @@ function App() {
         <Header />
             <Switch>        
                 <Route path={process.env.PUBLIC_URL + '/'} exact component ={Dealer}/>
-                <Route path={process.env.PUBLIC_URL + '/outlet'} component={Outlet}/>
-                <Route path={process.env.PUBLIC_URL + '/XL7'} component={Catalogue}/>       
+                <Route path={'/outlet'} component={Outlet}/>
+                <Route path={'/XL7'} component={Catalogue}/>       
             </Switch>
           <Footer />
       {/* <RouterView /> */}
