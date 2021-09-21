@@ -28,54 +28,70 @@ export default class Dealer extends Component{
                     </div>
                 </section>
                 <section className="card-container">
+                <Link to="/outlet">
                     <Card
                         gambarOutlet={Dealer1}
                         tag="Sales , Service, Sparepart, Body & Paint"
                         namaOutlet="SUZUKI NJS SOEKARNO - HATTA"
                         telfonOutlet="(022) 6204645"
                         alamatOutlet="JL. Soekarno Hatta No. 289 Bandung 40234"/>
+                </Link>
+                <Link to="/outlet">
                     <Card
                         gambarOutlet={Dealer2}
                         tag="Sales , Service, Sparepart"
                         namaOutlet="SUZUKI NJS CIBEUREUM"
                         telfonOutlet="(022) 6204645"
                         alamatOutlet="JL. Raya Cibeureum 48 B Bandung"/>
+                </Link>
+                <Link to="/outlet">
                     <Card
                         gambarOutlet={Dealer3}
                         tag="Sales , Service, Sparepart, Body & Paint"
                         namaOutlet="SUZUKI NJS BUAH BATU"
                         telfonOutlet="(022) 7300723"
                         alamatOutlet="JL. Soekarno – Hatta No. 513 Bandung"/>
+                </Link>
+                <Link to="/outlet">
                     <Card
                         gambarOutlet={Dealer4}
                         tag="Sales , Service, Sparepart"
                         namaOutlet="SUZUKI NJS AHMAD YANI"
                         telfonOutlet="(022) 7101655"
-                        alamatOutlet="JL. Jenderal Ahmad Yani 259 Bandung"/> 
+                        alamatOutlet="JL. Jenderal Ahmad Yani 259 Bandung"/>
+                </Link>
+                <Link to="/outlet">
                     <Card
                         gambarOutlet={Dealer5}
                         tag="Sales"
                         namaOutlet="SUZUKI NJS KOPO"
                         telfonOutlet="(022) 5422259"
                         alamatOutlet="JL. Kopo (Sayati) 260 C Bandung"/>
+                </Link>
+                <Link to="/outlet">
                     <Card
                         gambarOutlet={Dealer6}
                         tag="Sales"
                         namaOutlet="SUZUKI NJS DAGO"
                         telfonOutlet="(022) 6002512"
-                        alamatOutlet="JL. IR.H. Juanda (Dago) No. 75 Bandung"/> 
+                        alamatOutlet="JL. IR.H. Juanda (Dago) No. 75 Bandung"/>
+                </Link>
+                <Link to="/outlet">
                     <Card
                         gambarOutlet={Dealer7}
                         tag="Sales , Service, Sparepart"
                         namaOutlet="SUZUKI NJS SETIABUDHI"
                         telfonOutlet="(022) 2030787"
                         alamatOutlet="JL. DR. Setiabudhi No. 78 Bandung"/>
+                </Link>
+                <Link to="/outlet">
                     <Card
                         gambarOutlet={Dealer8}
                         tag="Sales , Service, Sparepart"
                         namaOutlet="SUZUKI NJS RANCAEKEK"
                         telfonOutlet="(022) 87836800"
-                        alamatOutlet="JL. Raya Rancaekek Cipasir KM. 22 Rancaekek"/>  
+                        alamatOutlet="JL. Raya Rancaekek Cipasir KM. 22 Rancaekek"/>
+                </Link> 
                 </section>
                 <div className="divide"></div>
                 <section className="main-title">

@@ -6,7 +6,6 @@ import Pin from '../../assets/Icon/pin.svg';
 
 const Card = ({namaOutlet, telfonOutlet, alamatOutlet, tag, gambarOutlet, }) =>{
     return(
-        <Link to="/outlet">
             <a className="content">
                 <div className="content__img">
                     <img src={gambarOutlet}/>
@@ -27,7 +26,6 @@ const Card = ({namaOutlet, telfonOutlet, alamatOutlet, tag, gambarOutlet, }) =>{
                     <button className="outlet-btn">Kunjungi Website Outlet</button>
                 </div>       
             </a>
-        </Link>
     )
 }
 
