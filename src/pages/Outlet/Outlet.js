@@ -38,7 +38,7 @@ export default class Outlet extends Component{
                     <div className="divide"></div>
                     
                 </div>
-                <Link to="/XL7">
+                <Link to={process.env.PUBLIC_URL + '/XL7'}>
                     <CarTab />
                 </Link>
                 <a className="image-banner">

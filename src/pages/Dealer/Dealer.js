@@ -28,7 +28,7 @@ export default class Dealer extends Component{
                     </div>
                 </section>
                 <section className="card-container">
-                <Link to="/outlet">
+                <Link to={process.env.PUBLIC_URL + '/outlet'}>
                     <Card
                         gambarOutlet={Dealer1}
                         tag="Sales , Service, Sparepart, Body & Paint"
@@ -36,7 +36,7 @@ export default class Dealer extends Component{
                         telfonOutlet="(022) 6204645"
                         alamatOutlet="JL. Soekarno Hatta No. 289 Bandung 40234"/>
                 </Link>
-                <Link to="/outlet">
+                <Link to={process.env.PUBLIC_URL+'/outlet'}>
                     <Card
                         gambarOutlet={Dealer2}
                         tag="Sales , Service, Sparepart"
@@ -44,7 +44,7 @@ export default class Dealer extends Component{
                         telfonOutlet="(022) 6204645"
                         alamatOutlet="JL. Raya Cibeureum 48 B Bandung"/>
                 </Link>
-                <Link to="/outlet">
+                <Link to={process.env.PUBLIC_URL + '/outlet'}>
                     <Card
                         gambarOutlet={Dealer3}
                         tag="Sales , Service, Sparepart, Body & Paint"
@@ -52,7 +52,7 @@ export default class Dealer extends Component{
                         telfonOutlet="(022) 7300723"
                         alamatOutlet="JL. Soekarno – Hatta No. 513 Bandung"/>
                 </Link>
-                <Link to="/outlet">
+                <Link to={process.env.PUBLIC_URL + '/outlet'}>
                     <Card
                         gambarOutlet={Dealer4}
                         tag="Sales , Service, Sparepart"
@@ -60,7 +60,7 @@ export default class Dealer extends Component{
                         telfonOutlet="(022) 7101655"
                         alamatOutlet="JL. Jenderal Ahmad Yani 259 Bandung"/>
                 </Link>
-                <Link to="/outlet">
+                <Link to={process.env.PUBLIC_URL + '/outlet'}>
                     <Card
                         gambarOutlet={Dealer5}
                         tag="Sales"
@@ -68,7 +68,7 @@ export default class Dealer extends Component{
                         telfonOutlet="(022) 5422259"
                         alamatOutlet="JL. Kopo (Sayati) 260 C Bandung"/>
                 </Link>
-                <Link to="/outlet">
+                <Link to={process.env.PUBLIC_URL + '/outlet'}>
                     <Card
                         gambarOutlet={Dealer6}
                         tag="Sales"
@@ -76,7 +76,7 @@ export default class Dealer extends Component{
                         telfonOutlet="(022) 6002512"
                         alamatOutlet="JL. IR.H. Juanda (Dago) No. 75 Bandung"/>
                 </Link>
-                <Link to="/outlet">
+                <Link to={process.env.PUBLIC_URL + '/outlet'}>
                     <Card
                         gambarOutlet={Dealer7}
                         tag="Sales , Service, Sparepart"
@@ -84,7 +84,7 @@ export default class Dealer extends Component{
                         telfonOutlet="(022) 2030787"
                         alamatOutlet="JL. DR. Setiabudhi No. 78 Bandung"/>
                 </Link>
-                <Link to="/outlet">
+                <Link to={process.env.PUBLIC_URL + '/outlet'}>
                     <Card
                         gambarOutlet={Dealer8}
                         tag="Sales , Service, Sparepart"
